@@ -1,0 +1,49 @@
+form.register form.login{
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+input.field{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 7px 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    
+}
+button.buttonDes{
+    
+    width: 100%;
+    display: block;
+    background-color: #555;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px 0;
+}
+form.login h1, form.register{
+    text-align: center;
+    padding: 20px;
+}
+
+/* create new post styling */
+
+button.buttonDes2{
+    
+    width: 100%;
+    margin-top: 5px;
+    display: block;
+    background-color: #555;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 0;
+}
+
+.register-page{
+    padding: 10px;
+  max-width: 850px;
+  margin: 0 auto;
+}

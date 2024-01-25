@@ -1,0 +1,127 @@
+/* Sidebar.css */
+
+.sidebar-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.welcome-message {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.quote-section {
+  margin-bottom: 20px;
+}
+
+.random-quote-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.random-quote-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.quote-author {
+  font-style: italic;
+  color: #555;
+}
+
+
+
+.additional-content {
+  /* Add styles for additional sidebar content */
+}
+
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.preferences-section label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.preferences-section input {
+  margin-left: 10px;
+}
+
+.resources-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resources-section li {
+  margin-bottom: 5px;
+}
+
+.clock-section {
+  background-color: #34495e;
+  color: #ecf0f1;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.clock-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.clock-section p {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+.user-note-section {
+  background-color: #3498db;
+  color: #ecf0f1;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+}
+
+.user-note-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #2980b9;
+  border-radius: 5px;
+  resize: none;
+  color: #2c3e50;
+  font-size: 1em;
+}
+
+button {
+  background-color: #2ecc71;
+  color: #ecf0f1;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+

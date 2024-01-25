@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  cursor: pointer;
+}
+/*body {
+  background-image: url('C:\Users\Asus\Desktop\hi2.jpg');
+  background-size: cover;
+  background-position: center;
+  /* You can add more background properties as needed */
+
+img{
+  max-width: 100%;
+}
+main{
+  /* padding: 10px; */
+  /* max-width: 850px; */
+  margin: 0 auto;
+  
+  /* gap: 10px; */
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom:  50px;
+  align-items: center;
+}
+header a{
+  text-decoration: none;
+  color: inherit;
+}
+header a.logo{
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+header nav{
+  display: flex;
+  gap: 15px;
+}
+
+div.entry{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-columns: .9fr 1.1fr;
+  gap: 20px;
+  margin-bottom: 30px ;
+}
+
+
+@media screen and (min-width: 650px){
+  div.entry{
+    grid-template-columns: .9fr 1.1fr;
+  }
+}
+
+div.entry div.content h2{
+  margin: 0;
+  text-decoration: none;
+  font-size: 1.5rem;
+  
+}
+div.entry div.content a{
+  text-decoration: none;
+  color: inherit;
+}
+div.entry p.info{
+  margin: 0;
+  color: #b61414;
+  font-size: .7rem;
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+}
+
+div.entry p.info a.author{
+  color: #333;
+}
+
+div.entry p.summary{
+  margin: 10px 0;
+  line-height: 1.4rem;
+}
+
+
+
+.post-content {
+  flex-basis: 50%;
+}
+
+.all-posts{
+  padding: 47px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.post-page{
+  padding: 10px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+.navbar-mar{
+  margin-bottom: 10px;
+}
+
+.navbar{
+  font-size: 20px;
+}
+
+.custom-editor{
+  height: 200px; 
+  font-size: 20px;
+  
+}
